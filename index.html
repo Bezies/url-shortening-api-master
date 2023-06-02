@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT AWESOME  -->
+  <script src='https://kit.fontawesome.com/c2bb2e55c9.js' crossorigin='anonymous'></script>
+
+  <!-- GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- JS  -->
+  <script src='app.js' defer></script>
+
+
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+
+</head>
+
+<body>
+
+  <header>
+    <img src="images/logo.svg" alt="">
+
+    <nav>
+      <ul id="links">
+        <li>
+          <a href="#">Features</a>
+        </li>
+        <li>
+          <a href="#">Pricing</a>
+        </li>
+        <li>
+          <a href="#">Resources</a>
+        </li>
+      </ul>
+
+
+
+      <div class="login-signUP">
+        <a href="#">Login</a>
+        <button id="signUp">Sign Up</button>
+      </div>
+    </nav>
+
+    <div id="hamburger"><i class="fa-sharp fa-solid fa-bars" style="color: #a19fbe;"></i></div>
+  </header>
+
+
+
+  <main>
+
+
+    <section id="more">
+      <div class="more-text">
+        <h1>More than just shorter links</h1>
+        <p>
+          Build your brand’s recognition and get detailed insights
+          on how your links are performing.
+        </p>
+        <button class="get-started">Get Started</button>
+      </div>
+
+      <div id="more-bg">
+        <img src="images/illustration-working.svg" alt="">
+      </div>
+    </section>
+
+
+
+
+    <section id="advanced">
+      <div class="form">
+        <input type="text" name="shorten" id="shorten" placeholder="Shorten a link here..." required>
+        <button id="shorten-button">Shorten It!</button>
+        <small id="error">Please add a link</small>
+      </div>
+
+      <div class="shortLinkBox">
+
+      </div>
+
+
+      <div id="advanced-title">
+        <h2>Advanced Statistics</h2>
+        <p>
+          Track how your links are performing across the web with our
+          advanced statistics dashboard.
+        </p>
+      </div>
+
+
+      <div class="advanced-box">
+
+        <div class="box" id="brand">
+
+          <div class="icon-box"><img src="images/icon-brand-recognition.svg" alt=""></div>
+          <h3>Brand Recognition</h3>
+          <p>
+            Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </div>
+
+
+        <div class="box" id="detailed">
+          <div class="icon-box"><img src="images/icon-detailed-records.svg" alt=""></div>
+          <h3>Detailed Records</h3>
+          <p>
+            Gain insights into who is clicking your links. Knowing when and where
+            people engage with your content helps inform better decisions.
+          </p>
+        </div>
+
+
+        <div class="box" id="fully">
+          <div class="icon-box"><img src="images/icon-fully-customizable.svg" alt=""></div>
+          <h3>Fully Customizable</h3>
+          <p>
+            Improve brand awareness and content discoverability through customizable
+            links, supercharging audience engagement.
+          </p>
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+    <section id="boost">
+      <h2>Boost your links today</h2>
+      <button class="get-started">Get Started</button>
+    </section>
+
+
+  </main>
+
+  <footer>
+
+    <div class="nav-footer">
+
+      <img src="images/logo-white.svg" alt="">
+
+
+      <div class="footer-links">
+
+        <ul>
+          <li id="features">
+            <a href="#" >Features</a>
+          </li>
+          <li>
+            <a href="#">Link Shortening</a>
+          </li>
+          <li>
+            <a href="#">Branded Links</a>
+          </li>
+          <li>
+            <a href="#">Analytics</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li id="ressources">
+            <a href="#" >Ressources</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Developers</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li id="company">
+            <a href="#" >Company</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Our Team</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+
+
+        <ul id="RS">
+          <li><a href="#"><i class='fa-brands fa-square-facebook'></i></a></li>
+          <li><a href="#"><i class='fa-brands fa-twitter'></i></a></li>
+          <li><a href="#"><i class='fa-brands fa-pinterest'></i></a></li>
+          <li><a href="#"><i class='fa-brands fa-instagram'></i></a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/bezies" target="_blank">Quentin Bessiere</a>.
+    </div>
+
+  </footer>
+</body>
+
+</html>
